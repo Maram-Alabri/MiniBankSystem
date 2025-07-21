@@ -77,5 +77,10 @@ public class MiniBankSystem {
         this.accountName = accountName;
         this.accountNumber = accountNumber;
         this.balance = balance;
+        BankAccount acc1 = new BankAccount("Alice", "001", 500.0);
+        BankAccount acc2 = new BankAccount("Bob", "002", 1000.0);
+
+        acc1.showAccountInfo();
+        acc2.showAccountInfo();
     }
 }

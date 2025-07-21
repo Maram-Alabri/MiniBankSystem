@@ -61,4 +61,16 @@ public class MiniBankSystem {
             }
         }
     }
+    public class BankAccount {
+        protected String accountName;
+        protected String accountNumber;
+        protected double balance;
+
+        public void showAccountInfo() {
+            System.out.println("\n--- Account Info ---");
+            System.out.println("Name: " + accountName);
+            System.out.println("Account Number: " + accountNumber);
+            System.out.println("Balance: $" + balance);
+        }
+    }
 }

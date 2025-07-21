@@ -73,4 +73,9 @@ public class MiniBankSystem {
             System.out.println("Balance: $" + balance);
         }
     }
+    public BankAccount(String accountName, String accountNumber, double balance) {
+        this.accountName = accountName;
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+    }
 }
